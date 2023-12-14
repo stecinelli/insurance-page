@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Frank+Ruhl+Libre:wght@300;400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Fira Sans", sans-serif;
+  & h1,
+  h2,
+  h3 {
+    font-family: "Frank Ruhl Libre", serif;
+  }
+}
+
+.part-1,
+.part-2,
+.part-3 {
+  width: 100%;
+  height: 100vw;
+  background-color: #c7ddea;
+}
+
+.part-2 {
+  background-color: #f17949;
+  & h2 {
+    color: white;
+  }
+}
+
+.part-3 {
+  background-color: #fab131;
+  & h2 {
+    color: white;
+  }
+}
+
+.part-4 {
+  width: 100%;
+  height: 100vw;
+  background-color: #a9a19e;
+}
+
+.part-5 {
+  background-color: #fab131;
+  & h2 {
+    color: white;
+  }
+}
+
+.part-6,
+.part-7,
+.part-8,
+.part-9,
+.part-10,
+.part-11,
+.up {
+  width: 100%;
+  height: 50vw;
+  background-color: #c7ddea;
+}
+
+.part-7,
+.part-9,
+.part-11 {
+  background-color: white;
+}
+
+.part-8 {
+  background-color: #d7d2d1;
+}
+
+.part-10 {
+  background-color: #f17949;
+}
+
+.up {
+  background-color: #a9a19e;
+}
