@@ -16,6 +16,10 @@ nav {
   display: none;
 }
 
+.up {
+  display: none;
+}
+
 .part-1,
 .part-2,
 .part-3 {
@@ -181,9 +185,26 @@ nav {
 .part-10,
 .part-11,
 .up {
-  width: 100%;
+  width: 90vw;
   height: 50vw;
+  padding: 20px;
+
   background-color: #c7ddea;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  & span {
+    align-self: flex-start;
+    height: 50%;
+    color: rgb(74, 72, 71, 0.5);
+  }
+  & p {
+    height: 50%;
+  }
 }
 
 .part-7,
