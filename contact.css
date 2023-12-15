@@ -96,4 +96,9 @@ main {
     margin: 0 -20px;
     background-color: #fab131;
   }
+  & .address {
+    & h1 {
+      color: #fab131;
+    }
+  }
 }
