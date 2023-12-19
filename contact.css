@@ -102,3 +102,68 @@ main {
     }
   }
 }
+
+@media only screen and (min-width: 768px) {
+  .hello {
+    width: 100vw;
+
+    background-color: #c7ddea;
+
+    & img {
+      width: 10%;
+      margin-left: 150px;
+    }
+  }
+
+  nav {
+    & p {
+      width: 25%;
+      height: 60px;
+    }
+  }
+
+  main {
+    width: 100vw;
+    padding: 0;
+
+    & .message {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      & h1 {
+        width: 30%;
+        margin-right: 100px;
+        margin-top: 60px;
+      }
+
+      & form {
+        width: 30%;
+        margin-top: 60px;
+
+        display: flex;
+        flex-direction: column;
+      }
+
+      & input {
+        width: 100%;
+      }
+
+      & button {
+        width: 30%;
+        align-self: flex-end;
+      }
+    }
+    & .map-container {
+      margin: 0;
+      background-color: #fab131;
+    }
+    & .address {
+      & h1 {
+        color: #fab131;
+        text-align: center;
+        margin-top: 60px;
+      }
+    }
+  }
+}
