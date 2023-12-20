@@ -119,6 +119,11 @@ main {
     & p {
       width: 25%;
       height: 60px;
+
+      & a {
+        text-decoration: none;
+        color: inherit;
+      }
     }
   }
 
