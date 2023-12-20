@@ -145,6 +145,7 @@ nav {
     justify-content: center;
     align-items: center;
     text-align: center;
+    overflow: visible;
 
     & .img-box {
       width: 80%;
@@ -155,6 +156,8 @@ nav {
       background-color: #c7ddea;
 
       overflow: hidden;
+      box-sizing: border-box;
+      transform: translate(0px, -30px);
     }
 
     & img {
